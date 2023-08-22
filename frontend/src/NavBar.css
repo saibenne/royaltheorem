@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+    color: white;
+    user-select: none;
+}
+
+.logo img{
+   
+    height: 45px;
+    width: 268px;
+    transform: scale(0.7);
+    cursor: pointer;
+    background-size: cover;
+    
+    
+}
+.logo{
+    
+    z-index: 1;
+    
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    scroll-behavior: smooth;
+    
+    
+
+}
+body::-webkit-scrollbar{
+    
+    background-color: red;
+    width: 15px;
+    
+
+}
+body::-webkit-scrollbar-thumb{
+    background: white;
+    scroll-behavior: smooth;
+}
+
+
+
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 2px;
+    box-shadow: 0px 2px 10px 1px ;
+    height: 50px;
+    transition: 0.3s ease-in-out;
+    z-index: 2;
+    
+}
+
+.menu ul{
+    display: flex;
+    gap:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+    margin-right: 10px;
+    
+
+
+}
+.menu ul li{
+    cursor: pointer;
+    z-index: 2;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+.menu ul li:hover{
+    transform: scale(1.15);
+    color: red;
+
+}
+svg{
+    -webkit-box-reflect: below -50px -webkit-linear-gradient(bottom,rgba(255, 255, 255, 1) -10%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+
+}
+.r{
+    font-size: 200px;
+    fill: #ff0000;
+}
+.t{
+    font-size: 150px;
+    fill: white;
+}
+.svg{
+    display: flex;
+    justify-content: center;
+    transform: scale(2);
+
+    width: fit-content;
+    opacity: 0.8;
+    
+    
+}
+.mlogo{
+    transform: scale(0.2);
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mlogo:hover{
+    box-shadow: 2px 2px 10px 1px red,-2px -2px 10px 1px red;
+
+}
+.navBar:hover{
+    
+    box-shadow: 0px 2px 10px 1px red;
+    
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+<style>
+svg{
+    
+    height: 44px;
+    width: 268px;
+    background-color: white;
+    
+    padding: 0px;
+   
+    
+    
+}
+.royal{
+    font-size: 30px;
+    
+}
+.theorem{
+
+    font-size: 30px;
+   
+    
+}
+.rect2{
+    fill:black;
+}
+</style>
+<rect x="2" y="2" height="40" width="110" fill="black">
+            
+        </rect>
+        <text fill="red" x="9" y="32" class="royal">ROYAL</text>
+        
+        <rect class="rect2" x="112.5" y="2.5" height="39" width="153"  stroke="black">
+            
+        </rect>
+        <text fill="white" x="115" y="32" class="theorem">THEOREM</text>
+        </svg>

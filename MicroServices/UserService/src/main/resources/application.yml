@@ -1,0 +1,22 @@
+server:
+  port: 8087
+spring:
+  application:
+    name: USER-SERVICE
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:8864/royaltheorem
+    username: saibenne
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  redis:
+    host: redis-14364.c9.us-east-1-4.ec2.cloud.redislabs.com
+    port: 14364
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8084/eureka
+

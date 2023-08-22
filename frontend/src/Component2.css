@@ -1,0 +1,12 @@
+.third{
+    font-size: 8vmax;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.15;
+    text-align: center;
+    text-shadow: 10px 10px 10px black;
+    line-height: 190%;
+    margin-top: 10%;
+    background: radial-gradient(white 10%,black);
+    
+
+}

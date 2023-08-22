@@ -1,0 +1,41 @@
+.cards{
+    margin-top: 10%;
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards .card{
+    background-color: #8f0000;
+    
+
+    cursor: pointer;
+    
+    transition: 0.4s;
+    
+    overflow: hidden;
+   
+}
+.cards .card:hover{
+    transform:scale(1.1);
+}
+.card:hover .r{
+   transform: translate(-10px,-5px);
+}
+.card:hover .t{
+    transform: translate(10px,-10px);
+ }
+.cards .card svg .r{
+    
+    text-shadow: 10px 10px 10px black;
+    transition: 0.3s;
+    
+}
+.card svg{
+    -webkit-box-reflect: below;
+}
+.t{
+    text-shadow: 10px 10px 10px black;
+    transition: 0.3s;
+}

@@ -1,0 +1,19 @@
+server:
+  port: 8089
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:8864/royaltheorem
+    username: saibenne
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: ORDERS-SERVICE
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8084/eureka
+
